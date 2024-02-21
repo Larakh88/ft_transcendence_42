@@ -1,0 +1,28 @@
+{% load i18n %}
+
+<div class="d-flex justify-content-evenly m-5 p-5">
+	<button type="button" id='twoplayergame' class="btn btn-primary w-25 p-2 mt-5 mb-3" onclick="twoplayers()">
+		{% translate "Two Players Game" %}
+	</button>
+	<button type="button" id='threeplayergame' class="btn btn-primary w-25 p-2 mt-5 mb-3" onclick="multiplayers()">
+		{% translate "Three players Game" %}
+	</button>
+</div>
+<div id="select-alert-container" class="d-flex justify-content-center" style="z-index: 1000;"></div>
+
+<div id="twoplayers" class='w-50 mx-auto d-flex flex-column align-items-center d-none'>
+	<input id="player2alias" type="text" class="input mb-2" data-user="{{profile_user.display_name}}" placeholder="{% translate "Enter Player 2 Alias" %}" tabindex='0'>
+	<br>
+	<button type="button" id='gotogame' class="btn btn-primary" onclick="goToGame()">{% translate "Go to Game" %}</button>
+</div>
+
+<div id="multiplayers" class='w-50 mx-auto d-flex flex-column align-items-center d-none'>
+	<input type="text" class="input mb-2" id="multiplayer1" placeholder="{% translate " Player 1 Alias" %}" tabindex='0'>
+	<br>
+	<input type="text" class="input mb-2" id="multiplayer2" placeholder="{% translate " Player 2 Alias" %}" tabindex='0'>
+	<br>
+	<input type="text" class="input mb-2" id="multiplayer3" placeholder="{% translate " Player 3 Alias" %}" tabindex='0'>
+	<br>
+	<button type="button" id='multigotogame' class="btn btn-primary" onclick="goToMGame()">{% translate "Go to Game" %}</button>
+</div>
+

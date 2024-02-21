@@ -1,0 +1,53 @@
+version: "3.9"
+
+services:
+  postgres:
+    container_name: postgres
+    image: postgres:16-alpine
+    environment:
+        - POSTGRES_USER=${DB_USER}
+        - POSTGRES_PASSWORD=${DB_PASSWORD}
+        - POSTGRES_DB=${DB_NAME}
+    healthcheck:
+        test: pg_isready -U ${DB_USER}
+        interval: 10s
+        timeout: 5s
+        retries: 5
+
+  django:
+    container_name: django
+    build:
+      context: ./Django
+    command:
+      - sh
+      - -c
+      - |
+        python3 manage.py makemigrations
+        python3 manage.py migrate --noinput
+        python3 manage.py loaddata seed/0003_ft_User.json
+        gunicorn -c gunicorn_config.py
+    restart: always
+    expose:
+      - "8000"
+    volumes:
+      - ./Django:/code
+    env_file:
+      - .env
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  nginx:
+    container_name: nginx
+    image: nginx:alpine
+    restart: unless-stopped
+    ports:
+      - "8000:443"
+    volumes:
+      - ./Django/pong/static:/var/www/static
+      - ./Django/media:/var/www/media
+      - ./nginx/conf.d:/etc/nginx/conf.d
+      - ./nginx/certs:/etc/nginx/certs
+      - ./nginx/logs:/var/log/nginx
+    depends_on:
+      - django

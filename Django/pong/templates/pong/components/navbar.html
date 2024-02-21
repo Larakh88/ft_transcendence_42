@@ -1,0 +1,19 @@
+{% load i18n %}
+{% load static %}
+<nav id="main-nav" class="navigation-bar" role="navigation">
+	<a class="nav-link d-flex flex-row py-2 text-nav" tabindex='0' onclick="showSection('home')">
+		<i class="bi bi-house-door-fill icons" title='{% translate "home" %}' id="home_img" ></i> <div id='home_nav' class="align-self-center fw-bold px-2 navbar-content">{% translate "Home" %}</div>
+	</a>
+	<a class="nav-link d-flex flex-row py-2 text-nav" tabindex='0' onclick="showSection('gameSelection')">
+		<i class="bi bi-controller icons" title='{% translate "game" %}' id="game_img"></i><div id="game_nav" class="align-self-center fw-bold px-2 navbar-content">{% translate "Game" %}</div>
+	</a>
+	<a class="nav-link d-flex flex-row py-2 text-nav" tabindex='0' onclick="showSection('tournamentForm')">
+		<i class="bi bi-trophy-fill icons" title='{% translate "tournament" %}' id="tournament_img"></i><div id="tournament_nav" class="align-self-center fw-bold px-2 navbar-content">{% translate "Tournament" %}</div>
+	</a>
+	<a class="nav-link d-flex flex-row py-2 text-nav" tabindex='0' onclick="showSection('logout')">
+		<i class="bi bi-box-arrow-right icons" title='{% translate "logout"%}' id='logout_img'></i><div id="logout_nav" class="align-self-center fw-bold px-2 navbar-content">{% translate "Logout" %}</div>
+	</a>
+	{% block font %}
+		{% include "../components/fontsize.html" %}
+	{% endblock font %}
+</nav>

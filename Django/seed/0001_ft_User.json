@@ -1,0 +1,26 @@
+[
+{
+    "model": "pong.ft_user",
+    "pk": 1,
+    "fields": {
+        "session_key": null,
+        "intra_name": "aball",
+        "display_name": "aball",
+        "image": "avatar.svg",
+        "last_login": null,
+        "language_preference": "en"
+    }
+},
+{
+    "model": "pong.ft_user",
+    "pk": 93211,
+    "fields": {
+        "session_key": "k5jpg23xal4yncwaw2h4shsn824dmz55",
+        "intra_name": "talsaiaa",
+        "display_name": "talsaiaa",
+        "image": "avatar.svg",
+        "last_login": "2024-01-30T10:40:52.461Z",
+        "language_preference": "en"
+    }
+}
+]

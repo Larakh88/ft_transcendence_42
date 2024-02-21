@@ -1,0 +1,43 @@
+{% load i18n %}
+{% load static %}
+
+<table class="table table-borderless table-hover table-text">
+	<thead>
+		<tr>
+			<th scope="col" class="colorfy avatar-text-table">{% translate "Avatar" %}</th>
+			<th scope="col" class="colorfy">{% translate "Username" %}</th>
+			<th scope="col" class="colorfy">{% translate "Profile" %}</th>
+			<th scope="col" class="colorfy">{% translate "Accept" %}</th>
+			<th scope="col" class="colorfy">{% translate "Reject" %}</th>
+		</tr>
+	</thead>
+	<tbody>
+		{% csrf_token %}
+		{% for user in users %}
+			{% if user.id == request.user.id %}
+				{% for request in user.receiver_friend_request.all %}
+					{% if request.request_status == False %}
+						<tr class="align-middle">
+							<td class="colorfy fs-6 avatar-text-table">
+								<img alt='{% translate "Player Avatar" %}' src="/media/{{ request.sender_id.image }}" class="small-avatar">
+							</td>
+							<td class="colorfy">{{ request.sender_id.display_name }}</td>
+							<td class="colorfy"> <a onclick="showSection('profile/' + '{{ request.sender_id.display_name }}')" onkeypress="friendRequestProfileEvent(event, 'profile/' + '{{ request.sender_id.display_name }}')"> <i class="bi bi-eye icons" title='{% translate "View Player Profile" %}' tabindex='0'></i> </a></td>
+							<td class="colorfy"> <a class="acceptButton" data-request-id="{{ request.request_id }}"> <i class="bi bi-person-check-fill icons" title='{% translate "Accept Friend Request" %}' tabindex='0'></i> </a> </td>
+							<td class="colorfy"> <a class="rejectButton" data-request-id="{{ request.request_id }}"> <i class="bi bi-person-dash-fill icons" title='{% translate "Reject Friend Request" %}' tabindex='0'></i> </a> </td>
+						</tr>
+					{% endif %}
+				{% endfor %}
+			{% endif %}
+		{% endfor %}
+	</tbody>
+</table>
+
+<script>
+    function friendRequestProfileEvent(event, url) {
+        if (event.key === 'Enter') {
+            event.preventDefault();
+            showSection(url);
+        }
+    }
+</script>

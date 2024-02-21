@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-31 09:41+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: pong/static/pong/js/game.js:25
+msgid "Please enter a value for Player 2 Alias!"
+msgstr "Silakan masukkan nilai untuk Alias Pemain 2!"
+
+#: pong/static/pong/js/game.js:29
+msgid "Alias is between 3 and 10 characters!"
+msgstr "Alias harus terdiri dari 3 hingga 10 karakter!"
+
+#: pong/static/pong/js/game.js:33 pong/static/pong/js/multiGame.js:28
+msgid "Alias cannot contain spaces!"
+msgstr "Alias tidak boleh mengandung spasi!"
+
+#: pong/static/pong/js/game.js:39
+msgid "Alias cannot be the same as the user!"
+msgstr "Alias tidak boleh sama dengan pengguna!"
+
+#: pong/static/pong/js/game.js:191 pong/static/pong/js/multiGame.js:194
+msgid "Game Over!<br>"
+msgstr "Permainan Selesai<br>"
+
+#: pong/static/pong/js/game.js:191 pong/static/pong/js/multiGame.js:194
+msgid " Wins"
+msgstr "Kemenangan"
+
+#: pong/static/pong/js/multiGame.js:20
+msgid "Please enter all aliases"
+msgstr "Mohon masukkan semua alias"
+
+#: pong/static/pong/js/multiGame.js:24
+msgid "Alias cannot be more than 10 characters!"
+msgstr "Alias tidak boleh lebih dari 10 karakter!"
+
+#: pong/static/pong/js/multiGame.js:32
+msgid "Aliases cannot be identical!"
+msgstr "Alias tidak boleh identik!"
+
+#: pong/static/pong/js/multiGame.js:194
+msgid "Tie"
+msgstr "Seri"
+
+#: pong/static/pong/js/multiGame.js:194
+msgid "It's a Tie"
+msgstr "Ini Seimbang"
+
+#: pong/static/pong/js/tournament.js:27
+msgid "Start Round "
+msgstr "Mulai Putaran "
+
+#: pong/static/pong/js/tournament.js:40
+msgid "New Tournament"
+msgstr "Turnamen Baru"
+
+#: pong/static/pong/js/tournament.js:85
+msgid "Please enter a value for Player "
+msgstr "Harap masukkan nilai untuk Pemain "
+
+#: pong/static/pong/js/tournament.js:91
+msgid "Please enter 8 unique players!"
+msgstr "Harap masukkan 8 pemain unik!"

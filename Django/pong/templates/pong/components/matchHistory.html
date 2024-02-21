@@ -1,0 +1,33 @@
+{% load i18n %}
+{% load static %}
+
+<table class="table table-borderless table-hover table-text equal-width-table">
+	<thead>
+		<tr>
+			<th scope="col" class="colorfy">{% translate "Date" %}</th>
+			<th scope="col" class="colorfy">{% translate "Me" %}</th>
+			<th scope="col" class="colorfy">{% translate "Score" %}</th>
+			<th scope="col" class="colorfy">{% translate "Opponent" %}</th>
+			<th scope="col" class="colorfy">{% translate "Result" %}</th>
+		</tr>
+	</thead>
+	<tbody>
+		{% for user in users %}
+			{% if user.id == profile_user.id %}
+				{% for match in user.match_user_id.all %}
+					<tr class="align-middle">
+						<td class="colorfy">{{ match.timestamp }}</td>
+						<td class="colorfy">{{ match.user_id.display_name }}</td>
+						<td class="colorfy">{{ match.user_score }} - {{ match.opponent_score }}</td>
+						<td class="colorfy">{{ match.opponent_alias }}</td>
+						{% if match.game_result == True %}
+							<td class="colorfy">Winner</td>
+						{% else %}
+							<td class="colorfy">Loser</td>
+						{% endif %}
+					</tr>
+				{% endfor %}
+			{% endif %}
+		{% endfor %}
+	</tbody>
+</table>

@@ -1,0 +1,50 @@
+[
+{
+    "model": "pong.ft_user",
+    "pk": 1,
+    "fields": {
+        "session_key": null,
+        "intra_name": "aball",
+        "display_name": "aball",
+        "image": "avatar.svg",
+        "last_login": null,
+        "language_preference": "en"
+    }
+},
+{
+    "model": "pong.ft_user",
+    "pk": 93211,
+    "fields": {
+        "session_key": null,
+        "intra_name": "talsaiaa",
+        "display_name": "talsaiaa",
+        "image": "avatar.svg",
+        "last_login": null,
+        "language_preference": "en"
+    }
+},
+{
+    "model": "pong.ft_user",
+    "pk": 95427,
+    "fields": {
+        "session_key": null,
+        "intra_name": "aball",
+        "display_name": "aball",
+        "image": "avatar.svg",
+        "last_login": null,
+        "language_preference": "en"
+    }
+},
+{
+    "model": "pong.matchhistory",
+    "pk": 1,
+    "fields": {
+        "user_id": 93211,
+        "opponent_alias": "Guest-alksjdfl",
+        "user_score": 11,
+        "opponent_score": 5,
+        "timestamp": "2024-01-30",
+        "game_result": true
+    }
+}
+]

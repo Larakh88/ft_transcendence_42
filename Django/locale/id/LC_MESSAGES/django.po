@@ -1,0 +1,528 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-31 20:22+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ft_transcendence/settings.py:146
+msgid "English"
+msgstr "Inggris"
+
+#: ft_transcendence/settings.py:147
+msgid "Indonesian"
+msgstr "Bahasa Indonesia"
+
+#: ft_transcendence/settings.py:148
+msgid "Spanish"
+msgstr "Spanyol"
+
+#: pong/templates/pong/components/avatar.html:5
+#: pong/templates/pong/components/avatarProfile.html:5
+#: pong/templates/pong/components/friendsRequest.html:22
+#: pong/views/views_table.py:19 pong/views/views_update_users.py:25
+msgid "Player Avatar"
+msgstr "Avatar Pemain"
+
+#: pong/templates/pong/components/avatar.html:6
+msgid "Camera Icon to edit avatar"
+msgstr "Ikon kamera untuk mengedit avatar"
+
+#: pong/templates/pong/components/avatar.html:9
+msgid "Upload New Avatar Image"
+msgstr "Unggah Gambar Avatar Baru"
+
+#: pong/templates/pong/components/avatar.html:10
+#: pong/templates/pong/components/playername.html:11
+msgid "Save"
+msgstr "Simpan"
+
+#: pong/templates/pong/components/avatar.html:11
+#: pong/templates/pong/components/langselect.html:27
+#: pong/templates/pong/components/playername.html:12
+msgid "Cancel"
+msgstr "Batal"
+
+#: pong/templates/pong/components/avatar.html:14
+msgid "Image cannot be more than 2MB"
+msgstr "Gambar tidak boleh lebih dari 2MB"
+
+#: pong/templates/pong/components/avatar.html:19
+#: pong/templates/pong/components/avatar.html:21
+#: pong/templates/pong/components/avatarProfile.html:7
+#: pong/templates/pong/components/avatarProfile.html:9
+#: pong/views/views_table.py:20
+msgid "Player's Online Status"
+msgstr "Status Online Pemain"
+
+#: pong/templates/pong/components/findFriends.html:7
+msgid "Enter Friend Name"
+msgstr "Masukkan Nama Teman"
+
+#: pong/templates/pong/components/findFriends.html:8
+msgid "Search"
+msgstr "Cari"
+
+#: pong/templates/pong/components/findFriends.html:17
+#: pong/templates/pong/components/friends.html:7
+#: pong/templates/pong/components/friendsRequest.html:7
+msgid "Avatar"
+msgstr "Avatar"
+
+#: pong/templates/pong/components/findFriends.html:18
+#: pong/templates/pong/components/friends.html:8
+#: pong/templates/pong/components/friendsRequest.html:8
+msgid "Username"
+msgstr "Nama pengguna"
+
+#: pong/templates/pong/components/findFriends.html:19
+#: pong/templates/pong/components/friends.html:9
+#: pong/templates/pong/components/friendsRequest.html:9
+msgid "Profile"
+msgstr "Profil"
+
+#: pong/templates/pong/components/findFriends.html:20
+msgid "Add Friend"
+msgstr "Tambah Teman"
+
+#: pong/templates/pong/components/fontsize.html:5
+msgid "increase font size."
+msgstr "perbesar ukuran font."
+
+#: pong/templates/pong/components/fontsize.html:13
+msgid "decrease font size."
+msgstr "perkecil ukuran font."
+
+#: pong/templates/pong/components/friends.html:10
+#: pong/views/views_update_users.py:27
+msgid "Unfriend"
+msgstr "Hapus teman"
+
+#: pong/templates/pong/components/friendsRequest.html:10
+msgid "Accept"
+msgstr "Terima"
+
+#: pong/templates/pong/components/friendsRequest.html:11
+msgid "Reject"
+msgstr "Tolak"
+
+#: pong/templates/pong/components/friendsRequest.html:25
+#: pong/views/views_table.py:21 pong/views/views_update_users.py:26
+msgid "View Player Profile"
+msgstr "Lihat Profil Pemain"
+
+#: pong/templates/pong/components/friendsRequest.html:26
+msgid "Accept Friend Request"
+msgstr "Kirim Permintaan Pertemanan"
+
+#: pong/templates/pong/components/friendsRequest.html:27
+msgid "Reject Friend Request"
+msgstr "Kirim Permintaan Pertemanan"
+
+#: pong/templates/pong/components/langselect.html:20
+msgid "Language Preference"
+msgstr "Preferensi Bahasa"
+
+#: pong/templates/pong/components/langselect.html:24
+msgid ""
+"would you like to save this as your prefered language for future visits to "
+"the website?"
+msgstr ""
+"Apakah Anda ingin menyimpan ini sebagai bahasa pilihan Anda untuk kunjungan "
+"mendatang ke situs web?"
+
+#: pong/templates/pong/components/langselect.html:28
+msgid "Apply Language Without Saving"
+msgstr "Terapkan Bahasa Tanpa Menyimpan"
+
+#: pong/templates/pong/components/langselect.html:29
+msgid "Save as Default"
+msgstr "Simpan sebagai Default"
+
+#: pong/templates/pong/components/matchHistory.html:7
+msgid "Date"
+msgstr "Tanggal"
+
+#: pong/templates/pong/components/matchHistory.html:8
+msgid "Me"
+msgstr "Saya"
+
+#: pong/templates/pong/components/matchHistory.html:9
+msgid "Score"
+msgstr "Skor"
+
+#: pong/templates/pong/components/matchHistory.html:10
+msgid "Opponent"
+msgstr "Lawan"
+
+#: pong/templates/pong/components/matchHistory.html:11
+msgid "Result"
+msgstr "Hasil"
+
+#: pong/templates/pong/components/navbar.html:5
+msgid "home"
+msgstr "beranda"
+
+#: pong/templates/pong/components/navbar.html:5
+msgid "Home"
+msgstr "Beranda"
+
+#: pong/templates/pong/components/navbar.html:8
+msgid "game"
+msgstr "permainan"
+
+#: pong/templates/pong/components/navbar.html:8
+msgid "Game"
+msgstr "Permainan"
+
+#: pong/templates/pong/components/navbar.html:11
+msgid "tournament"
+msgstr "turnamen"
+
+#: pong/templates/pong/components/navbar.html:11
+msgid "Tournament"
+msgstr "turnamen"
+
+#: pong/templates/pong/components/navbar.html:14
+msgid "logout"
+msgstr "keluar"
+
+#: pong/templates/pong/components/navbar.html:14
+msgid "Logout"
+msgstr "keluar"
+
+#: pong/templates/pong/components/playername.html:6
+msgid "Edit Username Icon"
+msgstr "Edit Ikon Nama Pengguna"
+
+#: pong/templates/pong/components/playername.html:10
+msgid "Enter New Username"
+msgstr "Masukkan Nama Pengguna Baru"
+
+#: pong/templates/pong/components/playername.html:15
+msgid "Username must include a number!"
+msgstr "Nama pengguna harus mengandung angka!"
+
+#: pong/templates/pong/components/playername.html:16
+msgid "Username must NOT include any spaces!"
+msgstr "Nama pengguna TIDAK boleh mengandung spasi!"
+
+#: pong/templates/pong/components/stats.html:7
+msgid "Nbr of Matches"
+msgstr "Jumlah Pertandingan"
+
+#: pong/templates/pong/components/stats.html:8
+msgid "Wins"
+msgstr "Kemenangan"
+
+#: pong/templates/pong/components/stats.html:9
+msgid "Loses"
+msgstr "Kekalahan"
+
+#: pong/templates/pong/components/stats.html:10
+#, python-format
+msgid "%% Win"
+msgstr "%% Menang"
+
+#: pong/templates/pong/components/stats.html:11
+#, python-format
+msgid "%% Loss"
+msgstr "%% Kekalahan"
+
+#: pong/templates/pong/components/table.html:7
+msgid "Stats"
+msgstr "Statistik"
+
+#: pong/templates/pong/components/table.html:8
+msgid "Match History"
+msgstr "Riwayat Pertandingan"
+
+#: pong/templates/pong/components/table.html:9
+msgid "Friends"
+msgstr "Teman"
+
+#: pong/templates/pong/components/table.html:10
+msgid "Friend Requests"
+msgstr "Permintaan Teman"
+
+#: pong/templates/pong/components/table.html:11
+msgid "Find Friend"
+msgstr "Cari Teman"
+
+#: pong/templates/pong/components/tournamentDiagram.html:9
+msgid "Round 1"
+msgstr "Putaran 1"
+
+#: pong/templates/pong/components/tournamentDiagram.html:17
+msgid "Round 2"
+msgstr "Putaran 2"
+
+#: pong/templates/pong/components/tournamentDiagram.html:28
+msgid "Round 5"
+msgstr "Putaran 5"
+
+#: pong/templates/pong/components/tournamentDiagram.html:39
+msgid "Round 7"
+msgstr "Putaran 7"
+
+#: pong/templates/pong/components/tournamentDiagram.html:50
+msgid "Round 6"
+msgstr "Putaran 6"
+
+#: pong/templates/pong/components/tournamentDiagram.html:60
+msgid "Round 3"
+msgstr "Putaran 3"
+
+#: pong/templates/pong/components/tournamentDiagram.html:68
+msgid "Round 4"
+msgstr "Putaran 4"
+
+#: pong/templates/pong/components/tournamentDiagram.html:81
+msgid "champion"
+msgstr "Juara"
+
+#: pong/templates/pong/components/tournamentDiagram.html:90
+msgid "Start Round number"
+msgstr "Mulai Putaran nomor"
+
+#: pong/templates/pong/sections/game.html:9
+#: pong/templates/pong/sections/game.html:43
+#: pong/templates/pong/sections/multiGame.html:38
+msgid "START GAME"
+msgstr "MULAI PERMAINAN"
+
+#: pong/templates/pong/sections/game.html:18
+msgid "Middle Line"
+msgstr ""
+
+#: pong/templates/pong/sections/game.html:46
+msgid "BACK TO TOURNAMENT"
+msgstr "KEMBALI KE TURNAMEN"
+
+#: pong/templates/pong/sections/game.html:46
+#: pong/templates/pong/sections/multiGame.html:41
+msgid "PLAY AGAIN"
+msgstr "MAIN LAGI"
+
+#: pong/templates/pong/sections/gameSelection.html:5
+msgid "Two Players Game"
+msgstr "Permainan Dua Pemain"
+
+#: pong/templates/pong/sections/gameSelection.html:8
+msgid "Three players Game"
+msgstr "Permainan Tiga Pemain"
+
+#: pong/templates/pong/sections/gameSelection.html:14
+msgid "Enter Player 2 Alias"
+msgstr "Masukkan Alias Pemain 2"
+
+#: pong/templates/pong/sections/gameSelection.html:16
+#: pong/templates/pong/sections/gameSelection.html:26
+msgid "Go to Game"
+msgstr "Ke Permainan"
+
+#: pong/templates/pong/sections/gameSelection.html:20
+msgid " Player 1 Alias"
+msgstr " Alias Pemain 1"
+
+#: pong/templates/pong/sections/gameSelection.html:22
+msgid " Player 2 Alias"
+msgstr " Alias Pemain 2"
+
+#: pong/templates/pong/sections/gameSelection.html:24
+msgid " Player 3 Alias"
+msgstr " Alias Pemain 3"
+
+#: pong/templates/pong/sections/index.html:9
+msgid "Sign in"
+msgstr "Masuk"
+
+#: pong/templates/pong/sections/logout.html:15
+msgid "Sign in Again"
+msgstr "Masuk Lagi"
+
+#: pong/templates/pong/sections/tournamentForm.html:5
+msgid "Players"
+msgstr "Pemain"
+
+#: pong/templates/pong/sections/tournamentForm.html:6
+msgid " Player 1"
+msgstr " Pemain 1"
+
+#: pong/templates/pong/sections/tournamentForm.html:9
+msgid " Player 2"
+msgstr " Pemain 2"
+
+#: pong/templates/pong/sections/tournamentForm.html:12
+msgid " Player 3"
+msgstr " Pemain 3"
+
+#: pong/templates/pong/sections/tournamentForm.html:15
+msgid " Player 4"
+msgstr " Pemain 4"
+
+#: pong/templates/pong/sections/tournamentForm.html:18
+msgid " Player 5"
+msgstr " Pemain 5"
+
+#: pong/templates/pong/sections/tournamentForm.html:21
+msgid " Player 6"
+msgstr " Pemain 6"
+
+#: pong/templates/pong/sections/tournamentForm.html:24
+msgid " Player 7"
+msgstr " Pemain 7"
+
+#: pong/templates/pong/sections/tournamentForm.html:27
+msgid " Player 8"
+msgstr " Pemain 8"
+
+#: pong/templates/pong/sections/tournamentForm.html:31
+msgid "Start Tournament"
+msgstr "Mulai Turnamen"
+
+#: pong/views/views_logout.py:10
+msgid "Logged Out"
+msgstr "Keluar"
+
+#: pong/views/views_table.py:22
+msgid "Send Friend Request"
+msgstr "Kirim Permintaan Pertemanan"
+
+#: pong/views/views_table.py:28
+msgid "Could not find any users that match this username! Try again."
+msgstr ""
+"Tidak dapat menemukan pengguna yang cocok dengan nama pengguna ini! Coba "
+"lagi."
+
+#: pong/views/views_table.py:30
+msgid "Please enter a friend's username!"
+msgstr "Silakan masukkan nama pengguna teman!"
+
+#: pong/views/views_table.py:31 pong/views/views_table.py:60
+#: pong/views/views_table.py:83 pong/views/views_table.py:99
+#: pong/views/views_table.py:115
+msgid "Invalid request method"
+msgstr "Metode permintaan tidak valid"
+
+#: pong/views/views_table.py:41 pong/views/views_table.py:57
+msgid "FriendRequest object could not be created!"
+msgstr "Objek FriendRequest tidak dapat dibuat!"
+
+#: pong/views/views_table.py:46
+msgid "Already a Friend!"
+msgstr "Tambah Teman"
+
+#: pong/views/views_table.py:47
+msgid "Friend request exists, but not accepted yet."
+msgstr "Permintaan pertemanan ada, tetapi belum diterima."
+
+#: pong/views/views_table.py:58
+msgid "Friend added"
+msgstr "Teman ditambahkan"
+
+#: pong/views/views_table.py:80
+msgid "Error accepting friend request!"
+msgstr "Kirim Permintaan Pertemanan"
+
+#: pong/views/views_table.py:81
+msgid "Friend request accepted"
+msgstr "Permintaan pertemanan diterima"
+
+#: pong/views/views_table.py:96
+msgid "Error rejecting friend request!"
+msgstr "Kesalahan menolak permintaan pertemanan!"
+
+#: pong/views/views_table.py:97
+msgid "Friend request rejected"
+msgstr "Permintaan pertemanan ditolak"
+
+#: pong/views/views_table.py:112
+msgid "Unfriend request unsuccessful"
+msgstr "Permintaan tidak berhasil untuk tidak berteman"
+
+#: pong/views/views_table.py:113
+msgid "Unfriend request successful"
+msgstr "Permintaan untuk tidak berteman berhasil"
+
+#: pong/views/views_updateAvatar.py:11
+msgid "File size must be no more than 2 MB."
+msgstr "Ukuran file tidak boleh lebih dari 2 MB."
+
+#: pong/views/views_updateAvatar.py:17
+msgid "Invalid file extension. Allowed extensions are jpg, jpeg, png, svg."
+msgstr ""
+"Ekstensi file tidak valid. Ekstensi yang diizinkan adalah jpg, jpeg, png, "
+"svg."
+
+#: pong/views/views_updateAvatar.py:38
+msgid "Avatar updated successfully"
+msgstr "Avatar berhasil diperbarui"
+
+#: pong/views/views_updateAvatar.py:43
+msgid "No file was provided"
+msgstr "Tidak ada file yang diberikan"
+
+#: pong/views/views_update_users.py:33
+msgid "User has no friends!"
+msgstr "Pengguna tidak memiliki teman!"
+
+#: pong/views/views_updatename.py:12
+msgid "Username is too long!"
+msgstr "Nama pengguna terlalu panjang!"
+
+#: pong/views/views_updatename.py:14
+msgid "Username is too short!"
+msgstr "Nama pengguna terlalu pendek!"
+
+#: pong/views/views_updatename.py:16
+msgid "Please type a new username."
+msgstr "Silakan ketik nama pengguna baru."
+
+#: pong/views/views_updatename.py:18
+msgid "Username cannot include spaces or special characters"
+msgstr "Username tidak boleh mengandung spasi"
+
+#: pong/views/views_updatename.py:20
+msgid "Username already exists."
+msgstr "Nama pengguna sudah ada."
+
+#: pong/views/views_updatename.py:22
+msgid "Username does not include a number."
+msgstr "Nama pengguna tidak mengandung angka."
+
+#: pong/views/views_updatename.py:26
+msgid "Could not change username! Try again."
+msgstr "Tidak dapat mengubah nama pengguna! Coba lagi."
+
+#: pong/views/views_updatename.py:28
+msgid "Username updated successfully"
+msgstr "Nama pengguna berhasil diperbarui"
+
+#~ msgid "Please enter unique player names"
+#~ msgstr "Masukkan nama pemain unik"
+
+#~ msgid "Please enter a value for Player 2 Alias!"
+#~ msgstr "Harap masukkan nilai untuk Alias Pemain 2!"
+
+#~ msgid "Alias is between 3 and 10 characters!"
+#~ msgstr "Alias harus antara 3 dan 10 karakter!"
+
+#~ msgid "Alias cannot contain spaces!"
+#~ msgstr "Alias tidak boleh mengandung spasi!"
+
+#~ msgid "Alias cannot be the same as the user!"
+#~ msgstr "Alias tidak boleh sama dengan pengguna!"

@@ -1,0 +1,34 @@
+{% load i18n %}
+{% load static %}
+<form id='langform' class="py-2  me-2 col-2 position-absolute top-0 end-0 hidden-button">
+{% csrf_token %}
+    <input name="next" type="hidden" value="{{ request.get_full_path }}">
+    <select id="langselect" class="form-control" name="language" aria-label="languageSelector" onchange="openModal()">
+        {% get_current_language as LANGUAGE_CODE %}
+        {% get_available_languages as LANGUAGES %}
+        {% get_language_info_list for LANGUAGES as languages %}
+        {% for language in languages %}
+        <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected="selected"{% endif %}>
+            {{ language.name_local }} ({{ language.code }})
+        </option>
+        {% endfor %}
+    </select>
+    <div class="modal fade" id="LanguageModal" tabindex="-1" zIndex='50' role='dialog' aria-labelledby="LanguageModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="LanguageModalLabel">{% translate "Language Preference" %}</h1>
+              <button type="button" class="btn-close" onclick="resetlang('{{ LANGUAGE_CODE }}')" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              {% translate "would you like to save this as your prefered language for future visits to the website?" %}
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="resetlang('{{ LANGUAGE_CODE }}')">{% translate "Cancel" %}</button>
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal" onclick="setLanguage(false)">{% translate "Apply Language Without Saving" %}</button>
+                <button type="button" class="btn btn-success" onclick="setLanguage(true)" {% if user.display_name %} {% else %} disabled {% endif %}>{% translate "Save as Default" %}</button>
+            </div>
+          </div>
+        </div>
+      </div>
+</form>

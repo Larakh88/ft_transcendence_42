@@ -1,0 +1,91 @@
+{% load i18n %}
+{% load static %}
+
+<section id="bracket">
+  <div class="container">
+
+    <div class="round">
+      <div class="round-details">
+        <span class="grid-item">{% translate "Round 1" %}</span>
+        <span id="round1" class="grid-item spinner-grow spinner-grow-sm visually-hidden" aria-hidden="true" style="color: #B379FF;"></span>
+      </div>
+      <ul id="r1" class="matchup">
+        <li class="team border border-primary border-start-0 rounded" id="player1"></li>
+        <li class="team border border-primary border-start-0 rounded" id="player2"></li>
+      </ul>
+    <div class="round-details">
+      <span class="grid-item">{% translate "Round 2" %}</span>
+      <span id='round2' class="grid-item spinner-grow spinner-grow-sm visually-hidden" aria-hidden="true" style="color: #B379FF;"></span>
+    </div>
+      <ul id='r2' class="matchup">
+        <li class="team border border-primary border-start-0 rounded" id="player3"></li>
+        <li class="team border border-primary border-start-0 rounded" id="player4"></li>
+      </ul>
+    </div>
+
+    <div class="round">
+      <div class="round-details">
+        <span class="grid-item">{% translate "Round 5" %}</span>
+        <span id='round5' class="grid-item spinner-grow spinner-grow-sm visually-hidden" aria-hidden="true" style="color: #B379FF;"></span>
+      </div>
+      <ul id='r5' class="matchup">
+        <li id="winner-r1" class="team border border-primary border-start-0 rounded"></li>
+        <li id="winner-r2" class="team border border-primary border-start-0 rounded"></li>
+      </ul>
+    </div>
+
+    <div class="round">
+      <div class="round-details">
+        <span class="grid-item">{% translate "Round 7" %}</span>
+        <span id='round7' class="grid-item spinner-grow spinner-grow-sm visually-hidden" aria-hidden="true" style="color: #B379FF;"></span>
+      </div>
+      <ul id="r7" class="matchup">
+        <li id="winner-r5" class="team border border-primary border-start-0 rounded"></li>
+        <li id="winner-r6" class="team border border-primary border-start-0 rounded"></li>
+      </ul>
+    </div>
+
+    <div class="round">
+      <div class="round-details">
+        <span class="grid-item">{% translate "Round 6" %}</span>
+        <span id='round6' class="grid-item spinner-grow spinner-grow-sm visually-hidden" aria-hidden="true" style="color: #B379FF;"></span>
+      </div>
+      <ul id='r6' class="matchup">
+        <li id="winner-r3" class="team border border-primary border-start-0 rounded"></li>
+        <li id="winner-r4" class="team border border-primary border-start-0 rounded"></li>
+      </div>
+
+      <div class="round">
+        <div class="round-details">
+          <span class="grid-item">{% translate "Round 3" %}</span>
+          <span id='round3' class="grid-item spinner-grow spinner-grow-sm visually-hidden" aria-hidden="true" style="color: #B379FF;"></span>
+        </div>
+        <ul id='r3' class="matchup">
+          <li class="team border border-primary border-start-0 rounded" id="player5"></li>
+          <li class="team border border-primary border-start-0 rounded" id="player6"></li>
+        </ul>
+        <div class="round-details">
+          <span class="grid-item">{% translate "Round 4" %}</span>
+          <span id='round4' class="grid-item spinner-grow spinner-grow-sm visually-hidden" aria-hidden="true" style="color: #B379FF;"></span>
+        </div>
+        <ul id='r4' class="matchup">
+          <li class="team border border-primary border-start-0 rounded" id="player7"></li>
+          <li class="team border border-primary border-start-0 rounded" id="player8"></li>
+        </ul>
+      </div>
+  </div>
+  <div class="champion">
+      <div class="final">
+        <i class="bi bi-trophy-fill icons"></i>
+        <div class="round-details">
+          <span class="grid-item">{% translate "champion" %}</span>
+          <span id='round8' class="grid-item spinner-grow spinner-grow-sm visually-hidden" aria-hidden="true" style="color: #B379FF;"></span>
+        </div>
+        <ul id="r8" class ="matchup championship">
+          <li id="winner-r7" class="finalist border border-primary border-start-0 rounded"></li>
+        </ul>
+      </div>
+</section>
+<div class="m-5">
+  <button class="btn btn-primary" id="start-round" onclick='goToGame("tournament")'>{% translate "Start Round number" %}</button>
+</div>

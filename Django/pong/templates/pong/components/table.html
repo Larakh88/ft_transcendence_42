@@ -1,0 +1,48 @@
+{% load i18n %}
+{% load static %}
+
+<div id="summary-table" class="my-5 mx-5 table-padding">
+	<nav class="navbar border-info justify-content-center">
+		<div class="nav nav-tabs table-background" id="nav-tab" role="tablist">
+			<button class="nav-link active fw-bold text-tab focus-ring " style="color: #DEE2E6;" id="nav-stats-tab" data-bs-toggle="tab" data-bs-target="#nav-stats" type="button" role="tab" aria-controls="nav-stats" aria-selected="true">{% translate "Stats" %}</button>
+			<button class="nav-link fw-bold text-tab" style="color: #DEE2E6;" id="nav-matchhistory-tab" data-bs-toggle="tab" data-bs-target="#nav-matchhistory" type="button" role="tab" aria-controls="nav-matchhistory" aria-selected="false">{% translate "Match History" %}</button>
+			<button class="nav-link fw-bold text-tab" style="color: #DEE2E6;" id="nav-friends-tab" data-bs-toggle="tab" data-bs-target="#nav-friends" type="button" onfocus="friends()" role="tab" aria-controls="nav-friends" aria-selected="false">{% translate "Friends" %}</button>
+			<button class="nav-link fw-bold text-tab" style="color: #DEE2E6;" id="nav-friends-request-tab" data-bs-toggle="tab" data-bs-target="#nav-friends-request" type="button" onfocus="friendRequest()" role="tab" aria-controls="nav-friends-request" aria-selected="false">{% translate "Friend Requests" %}</button>
+			<button class="nav-link fw-bold text-tab" style="color: #DEE2E6;" id="nav-find-friends-tab" data-bs-toggle="tab" data-bs-target="#nav-find-friends" type="button" role="tab" aria-controls="nav-find-friends" aria-selected="false">{% translate "Find Friend" %}</button>
+		</div>
+	</nav>
+	
+	<div id="alert-container" class="px-5 py-2" style="z-index: 1000;"></div>
+	<div class="tab-content justify-content-center border-info table-background" id="nav-tabContent">
+		<div class="tab-pane fade show active p-3 table-responsive" id="nav-stats" role="tabpanel" aria-labelledby="nav-stats-tab">
+			{% block stats %}
+				{% include "../components/stats.html" %}
+			{% endblock stats %}
+		</div>
+		
+		<div class="tab-pane fade p-3 table-responsive" id="nav-matchhistory" role="tabpanel" aria-labelledby="nav-matchhistory-tab">
+			{% block matchHistory %}
+				{% include "../components/matchHistory.html" %}
+			{% endblock matchHistory %}
+		</div>
+
+		<div class="tab-pane fade p-3 table-responsive" id="nav-friends" role="tabpanel" aria-labelledby="nav-friends-tab">
+			{% block friends %}
+				{% include "../components/friends.html" %}
+			{% endblock friends %}
+		</div>
+
+		<div class="tab-pane fade p-3 table-responsive" id="nav-friends-request" role="tabpanel" aria-labelledby="nav-friends-request-tab">
+			{% block friendsRequest %}
+				{% include "../components/friendsRequest.html" %}
+			{% endblock friendsRequest %}
+		</div>
+
+		<div class="tab-pane fade p-3 table-responsive" id="nav-find-friends" role="tabpanel" aria-labelledby="nav-find-friends-tab">
+			{% block findFriends %}
+				{% include "../components/findFriends.html" %}
+			{% endblock findFriends %}
+		</div>
+
+	</div>
+</div>

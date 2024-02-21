@@ -1,0 +1,44 @@
+{% load i18n %}
+{% load static %}
+
+<div id="game" class="col-11 p-2 ms-5">
+	{% csrf_token %}
+	<div class="d-flex justify-content-center">
+		<div id="board" class="board board_rect position-relative">
+			<img id="mid_line" class="mid_line" src={% static "pong/img/line-4.svg" %} alt={% translate "Middle Line" %}/>
+			<div class="player_info">
+				<div>
+					<p id="player_1_alias" class="player_alias"></p>
+					<p id="player_1_score">0</p>
+					<p class="instructions">&#8593;  Q</p>
+					<br>
+					<p class="instructions">&#8595;  A</p>	
+				</div>
+				<div>
+					<p id="player_2_alias" class="player_alias"></p>
+					<p id="player_2_score">0</p>
+					<p class="instructions">    P  &#8593;</p>
+					<br>
+					<p class="instructions">    L  &#8595;</p>
+				</div>
+			</div>
+			<div id="ball" class='ball'>
+				<div class="ball_effect"></div>
+			</div>
+			<div id="paddle_1" class="paddle_1 paddle"></div>
+			<div id="paddle_2" class="paddle_2 paddle"></div>
+			<div class="position-absolute top-50 start-50 translate-middle">
+					<button type="button" id='startgame' class="btn w-auto" onclick="startgame('game')">
+						<span id="grow" class="spinner-grow spinner-grow-sm" aria-hidden="true" style="color: #B379FF;"></span>
+						<span>{% translate "START GAME" %}</span>
+					</button>
+				<p id="game_message" class="message"></p>
+				<button id="restart" type="button" class="btn d-none" onclick="showSection('gameSelection')" data-tournament="{% translate 'BACK TO TOURNAMENT' %}" data-playagain="{% translate 'PLAY AGAIN' %}" tabindex='0'>{% translate "PLAY AGAIN" %}</button>
+			</div>
+		</div>
+	</div>
+</div>
+	<div class="col-1"></div>
+</div>
+
+

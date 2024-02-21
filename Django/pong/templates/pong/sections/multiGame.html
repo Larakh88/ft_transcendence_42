@@ -1,0 +1,47 @@
+{% load i18n %}
+{% load static %}
+
+<div id="mgame" class="col-11 p-2 ms-5">
+	{% csrf_token %}
+	<div class="d-flex justify-content-center">
+		<div id="mboard" class="board board_square position-relative">
+			<div class="player_info">
+				<div>
+					<p id="mplayer_1_alias" class="player_alias"></p>
+					<p id="mplayer_1_score">11</p>
+					<br>
+					<p class="instructions">&#8593;  Q</p>
+					<p class="instructions">&#8595;  A</p>	
+				</div>
+				<div>
+					<p id="mplayer_3_alias" class="player_alias"></p>
+					<p id="mplayer_3_score">11</p>
+					<p class="instructions" style="margin-top: 50vh;">&#8592;  V          B  &#8594;</p>
+				</div>
+				<div>
+					<p id="mplayer_2_alias" class="player_alias"></p>
+					<p id="mplayer_2_score">11</p>
+					<br>
+					<p class="instructions">    P  &#8593;</p>
+					<p class="instructions">    L  &#8595;</p>
+				</div>
+			</div>
+			<div id="mball" class='ball'>
+				<div class="ball_effect"></div>
+			</div>
+			<div id="mpaddle_1" class="mpaddle_1 mpaddle"></div>
+			<div id="mpaddle_2" class="mpaddle_2 mpaddle"></div>
+			<div id="mpaddle_3" class="mpaddle_3"></div>
+			<div class="position-absolute top-50 start-50 translate-middle" style="z-index: 1;">
+				<button type="button" id='mstartgame' class="btn w-auto" onclick="mstartgame()">
+					<span id="mgrow" class="spinner-grow spinner-grow-sm" aria-hidden="true" style="color: #B379FF;"></span>
+					<span>{% translate "START GAME" %}</span>
+				</button>
+				<p id="mgame_message" class="message"></p>
+				<button id="mrestart" type="button" class="btn d-none" onclick="showSection('gameSelection')" tabindex='0'>{% translate "PLAY AGAIN" %}</button>
+			</div>
+		</div>
+	</div>
+</div>
+	<div class="col-1"></div>
+</div>

@@ -1,0 +1,5 @@
+sha.txt
+.env
+Django/static/
+Django/media/
+*.log

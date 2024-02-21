@@ -1,0 +1,11 @@
+{% load i18n %}
+
+{% block lang %}
+	{% include "../components/langselect.html" %}
+{% endblock lang %}
+
+{% block content %}
+<div class="container-fluid mt-5 flex-wrap">
+<button type="button" id='signin' onclick='submitSignIn()' class="btn btn-primary w-25">{% translate "Sign in" %}</button>
+</div>
+{% endblock %}

@@ -1,0 +1,29 @@
+{% load i18n %}
+{% load static %}
+
+
+<div id="player-name" style="position: relative;">
+	<img id="edit" alt='{% translate "Edit Username Icon" %}' tabindex='0' src={% static "pong/img/edit.svg" %} class="edit-icon" onclick="editUsername()" onkeypress="handleEnter(event)">
+	<h2 id="display-name" class="user-text">{{ user.display_name }}</h2>
+	<form class='form-control d-none' id='editName' style='border-style: none;'>
+		{% csrf_token %}
+		<input class="input" maxlength="20" minlength="3" pattern="[!-~]+" id="newUsername" type="text" aria-label="newUsername" placeholder='{% translate "Enter New Username" %}'>
+		<button id="savebtn" class="btn" onclick="saveUsername()">{% translate "Save" %}</button>
+		<button id="cancelbtn" type="button" class="btn" onclick="cancelChange()">{% translate "Cancel" %}</button>
+		<br>
+		<br>
+		<p class="fst-italic fw-lighter" style="color: red;">{% translate 'Username must include a number!' %}</p>
+		<p class="fst-italic fw-lighter" style="color: red;">{% translate 'Username must NOT include any spaces!' %}</p>
+		<div id="username-messages">
+		</div>
+	</form>
+</div>
+
+<script>
+    function handleEnter(event) {
+        if (event.key === 'Enter') {
+            event.preventDefault();
+            editUsername();
+        }
+    }
+</script>

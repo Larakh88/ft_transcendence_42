@@ -1,0 +1,19 @@
+{% load i18n %}
+<div class='mb-3 hidden-button '>
+	<button role='button' class='px-2 btn btn-secondary btn-sm' onclick="changeFontSize('+')">
+		<div class="visually-hidden">
+			{% translate "increase font size." %}
+		</div>
+		<div aria-hidden="true">
+			A +
+		</div>
+	</button>
+	<button role='button' class='px-2 btn btn-secondary btn-sm' onclick="changeFontSize('-')">
+		<div class="visually-hidden">
+			{% translate "decrease font size." %}
+		</div>
+		<div aria-hidden="true">
+			A -
+		</div>
+	</button>
+</div>

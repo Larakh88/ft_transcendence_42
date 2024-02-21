@@ -1,0 +1,25 @@
+{% load i18n %}
+{% load static %}
+
+<table id="friends-table" class="table table-borderless table-hover table-text">
+	<thead>
+		<tr>
+			<th scope="col" class="colorfy avatar-text-table">{% translate "Avatar" %}</th>
+			<th scope="col" class="colorfy">{% translate "Username" %}</th>
+			<th scope="col" class="colorfy">{% translate "Profile" %}</th>
+			<th scope="col" class="colorfy">{% translate "Unfriend" %}</th>
+		</tr>
+	</thead>
+	<tbody>
+		{% csrf_token %}
+	</tbody>
+</table>
+	<div id="error-message" class="text-danger text-center"></div>
+<script>
+    function friendProfileEvent(event, url) {
+        if (event.key === 'Enter') {
+            event.preventDefault();
+            showSection(url);
+        }
+    }
+</script>

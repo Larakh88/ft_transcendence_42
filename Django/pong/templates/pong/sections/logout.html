@@ -1,0 +1,16 @@
+{% load i18n %}
+
+{% block lang %}
+	{% include "../components/langselect.html" %}
+{% endblock lang %}
+
+<div class="container-flex justify-content-center align-items-center">
+	{% if messages %}
+		{% for message in messages %}
+			<h2 {% if message.tags %} class="{{ message.tags }}"{% endif %}>
+				{{ message }}
+			</h2>
+		{% endfor %}
+	{% endif %}
+	<button type="button" id='index' onclick= "showSection('/')" class="btn btn-secondary w-25 mt-5">{% translate "Sign in Again" %}</button>
+</div>

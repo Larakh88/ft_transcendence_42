@@ -1,0 +1,11 @@
+{% load i18n %}
+{% load static %}
+
+<div id="avatar-profile" class="m-3">
+	<img alt='{% translate "Player Avatar" %}' src="/media/{{ profile_user.image }}" class="custom-avatar">
+	{% if is_user_active %}
+		<img alt="{% translate "Player's Online Status" %}" class="status-circle bg-success" src="data:image/svg+xml;charset=utf8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%3E%3C/svg%3E">
+	{% else %}
+		<img alt="{% translate "Player's Online Status" %}" class="status-circle bg-danger" src="data:image/svg+xml;charset=utf8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%3E%3C/svg%3E">
+	{% endif %}
+</div>

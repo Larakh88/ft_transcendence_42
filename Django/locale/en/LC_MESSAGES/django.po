@@ -1,0 +1,507 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-31 20:22+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ft_transcendence/settings.py:146
+msgid "English"
+msgstr ""
+
+#: ft_transcendence/settings.py:147
+msgid "Indonesian"
+msgstr ""
+
+#: ft_transcendence/settings.py:148
+msgid "Spanish"
+msgstr ""
+
+#: pong/templates/pong/components/avatar.html:5
+#: pong/templates/pong/components/avatarProfile.html:5
+#: pong/templates/pong/components/friendsRequest.html:22
+#: pong/views/views_table.py:19 pong/views/views_update_users.py:25
+msgid "Player Avatar"
+msgstr ""
+
+#: pong/templates/pong/components/avatar.html:6
+msgid "Camera Icon to edit avatar"
+msgstr ""
+
+#: pong/templates/pong/components/avatar.html:9
+msgid "Upload New Avatar Image"
+msgstr ""
+
+#: pong/templates/pong/components/avatar.html:10
+#: pong/templates/pong/components/playername.html:11
+msgid "Save"
+msgstr ""
+
+#: pong/templates/pong/components/avatar.html:11
+#: pong/templates/pong/components/langselect.html:27
+#: pong/templates/pong/components/playername.html:12
+msgid "Cancel"
+msgstr ""
+
+#: pong/templates/pong/components/avatar.html:14
+msgid "Image cannot be more than 2MB"
+msgstr ""
+
+#: pong/templates/pong/components/avatar.html:19
+#: pong/templates/pong/components/avatar.html:21
+#: pong/templates/pong/components/avatarProfile.html:7
+#: pong/templates/pong/components/avatarProfile.html:9
+#: pong/views/views_table.py:20
+msgid "Player's Online Status"
+msgstr ""
+
+#: pong/templates/pong/components/findFriends.html:7
+msgid "Enter Friend Name"
+msgstr ""
+
+#: pong/templates/pong/components/findFriends.html:8
+msgid "Search"
+msgstr ""
+
+#: pong/templates/pong/components/findFriends.html:17
+#: pong/templates/pong/components/friends.html:7
+#: pong/templates/pong/components/friendsRequest.html:7
+msgid "Avatar"
+msgstr ""
+
+#: pong/templates/pong/components/findFriends.html:18
+#: pong/templates/pong/components/friends.html:8
+#: pong/templates/pong/components/friendsRequest.html:8
+msgid "Username"
+msgstr ""
+
+#: pong/templates/pong/components/findFriends.html:19
+#: pong/templates/pong/components/friends.html:9
+#: pong/templates/pong/components/friendsRequest.html:9
+msgid "Profile"
+msgstr ""
+
+#: pong/templates/pong/components/findFriends.html:20
+msgid "Add Friend"
+msgstr ""
+
+#: pong/templates/pong/components/fontsize.html:5
+msgid "increase font size."
+msgstr ""
+
+#: pong/templates/pong/components/fontsize.html:13
+msgid "decrease font size."
+msgstr ""
+
+#: pong/templates/pong/components/friends.html:10
+#: pong/views/views_update_users.py:27
+msgid "Unfriend"
+msgstr ""
+
+#: pong/templates/pong/components/friendsRequest.html:10
+msgid "Accept"
+msgstr ""
+
+#: pong/templates/pong/components/friendsRequest.html:11
+msgid "Reject"
+msgstr ""
+
+#: pong/templates/pong/components/friendsRequest.html:25
+#: pong/views/views_table.py:21 pong/views/views_update_users.py:26
+msgid "View Player Profile"
+msgstr ""
+
+#: pong/templates/pong/components/friendsRequest.html:26
+msgid "Accept Friend Request"
+msgstr ""
+
+#: pong/templates/pong/components/friendsRequest.html:27
+msgid "Reject Friend Request"
+msgstr ""
+
+#: pong/templates/pong/components/langselect.html:20
+msgid "Language Preference"
+msgstr ""
+
+#: pong/templates/pong/components/langselect.html:24
+msgid ""
+"would you like to save this as your prefered language for future visits to "
+"the website?"
+msgstr ""
+
+#: pong/templates/pong/components/langselect.html:28
+msgid "Apply Language Without Saving"
+msgstr ""
+
+#: pong/templates/pong/components/langselect.html:29
+msgid "Save as Default"
+msgstr ""
+
+#: pong/templates/pong/components/matchHistory.html:7
+msgid "Date"
+msgstr ""
+
+#: pong/templates/pong/components/matchHistory.html:8
+msgid "Me"
+msgstr ""
+
+#: pong/templates/pong/components/matchHistory.html:9
+msgid "Score"
+msgstr ""
+
+#: pong/templates/pong/components/matchHistory.html:10
+msgid "Opponent"
+msgstr ""
+
+#: pong/templates/pong/components/matchHistory.html:11
+msgid "Result"
+msgstr ""
+
+#: pong/templates/pong/components/navbar.html:5
+msgid "home"
+msgstr ""
+
+#: pong/templates/pong/components/navbar.html:5
+msgid "Home"
+msgstr ""
+
+#: pong/templates/pong/components/navbar.html:8
+msgid "game"
+msgstr ""
+
+#: pong/templates/pong/components/navbar.html:8
+msgid "Game"
+msgstr ""
+
+#: pong/templates/pong/components/navbar.html:11
+msgid "tournament"
+msgstr ""
+
+#: pong/templates/pong/components/navbar.html:11
+msgid "Tournament"
+msgstr ""
+
+#: pong/templates/pong/components/navbar.html:14
+msgid "logout"
+msgstr ""
+
+#: pong/templates/pong/components/navbar.html:14
+msgid "Logout"
+msgstr ""
+
+#: pong/templates/pong/components/playername.html:6
+msgid "Edit Username Icon"
+msgstr ""
+
+#: pong/templates/pong/components/playername.html:10
+msgid "Enter New Username"
+msgstr ""
+
+#: pong/templates/pong/components/playername.html:15
+msgid "Username must include a number!"
+msgstr ""
+
+#: pong/templates/pong/components/playername.html:16
+msgid "Username must NOT include any spaces!"
+msgstr ""
+
+#: pong/templates/pong/components/stats.html:7
+msgid "Nbr of Matches"
+msgstr ""
+
+#: pong/templates/pong/components/stats.html:8
+msgid "Wins"
+msgstr ""
+
+#: pong/templates/pong/components/stats.html:9
+msgid "Loses"
+msgstr ""
+
+#: pong/templates/pong/components/stats.html:10
+#, python-format
+msgid "%% Win"
+msgstr ""
+
+#: pong/templates/pong/components/stats.html:11
+#, python-format
+msgid "%% Loss"
+msgstr ""
+
+#: pong/templates/pong/components/table.html:7
+msgid "Stats"
+msgstr ""
+
+#: pong/templates/pong/components/table.html:8
+msgid "Match History"
+msgstr ""
+
+#: pong/templates/pong/components/table.html:9
+msgid "Friends"
+msgstr ""
+
+#: pong/templates/pong/components/table.html:10
+msgid "Friend Requests"
+msgstr ""
+
+#: pong/templates/pong/components/table.html:11
+msgid "Find Friend"
+msgstr ""
+
+#: pong/templates/pong/components/tournamentDiagram.html:9
+msgid "Round 1"
+msgstr ""
+
+#: pong/templates/pong/components/tournamentDiagram.html:17
+msgid "Round 2"
+msgstr ""
+
+#: pong/templates/pong/components/tournamentDiagram.html:28
+msgid "Round 5"
+msgstr ""
+
+#: pong/templates/pong/components/tournamentDiagram.html:39
+msgid "Round 7"
+msgstr ""
+
+#: pong/templates/pong/components/tournamentDiagram.html:50
+msgid "Round 6"
+msgstr ""
+
+#: pong/templates/pong/components/tournamentDiagram.html:60
+msgid "Round 3"
+msgstr ""
+
+#: pong/templates/pong/components/tournamentDiagram.html:68
+msgid "Round 4"
+msgstr ""
+
+#: pong/templates/pong/components/tournamentDiagram.html:81
+msgid "champion"
+msgstr ""
+
+#: pong/templates/pong/components/tournamentDiagram.html:90
+msgid "Start Round number"
+msgstr ""
+
+#: pong/templates/pong/sections/game.html:9
+#: pong/templates/pong/sections/game.html:43
+#: pong/templates/pong/sections/multiGame.html:38
+msgid "START GAME"
+msgstr ""
+
+#: pong/templates/pong/sections/game.html:18
+msgid "Middle Line"
+msgstr ""
+
+#: pong/templates/pong/sections/game.html:46
+msgid "BACK TO TOURNAMENT"
+msgstr ""
+
+#: pong/templates/pong/sections/game.html:46
+#: pong/templates/pong/sections/multiGame.html:41
+msgid "PLAY AGAIN"
+msgstr ""
+
+#: pong/templates/pong/sections/gameSelection.html:5
+msgid "Two Players Game"
+msgstr ""
+
+#: pong/templates/pong/sections/gameSelection.html:8
+msgid "Three players Game"
+msgstr ""
+
+#: pong/templates/pong/sections/gameSelection.html:14
+msgid "Enter Player 2 Alias"
+msgstr ""
+
+#: pong/templates/pong/sections/gameSelection.html:16
+#: pong/templates/pong/sections/gameSelection.html:26
+msgid "Go to Game"
+msgstr ""
+
+#: pong/templates/pong/sections/gameSelection.html:20
+msgid " Player 1 Alias"
+msgstr ""
+
+#: pong/templates/pong/sections/gameSelection.html:22
+msgid " Player 2 Alias"
+msgstr ""
+
+#: pong/templates/pong/sections/gameSelection.html:24
+msgid " Player 3 Alias"
+msgstr ""
+
+#: pong/templates/pong/sections/index.html:9
+msgid "Sign in"
+msgstr ""
+
+#: pong/templates/pong/sections/logout.html:15
+msgid "Sign in Again"
+msgstr ""
+
+#: pong/templates/pong/sections/tournamentForm.html:5
+msgid "Players"
+msgstr ""
+
+#: pong/templates/pong/sections/tournamentForm.html:6
+msgid " Player 1"
+msgstr ""
+
+#: pong/templates/pong/sections/tournamentForm.html:9
+msgid " Player 2"
+msgstr ""
+
+#: pong/templates/pong/sections/tournamentForm.html:12
+msgid " Player 3"
+msgstr ""
+
+#: pong/templates/pong/sections/tournamentForm.html:15
+msgid " Player 4"
+msgstr ""
+
+#: pong/templates/pong/sections/tournamentForm.html:18
+msgid " Player 5"
+msgstr ""
+
+#: pong/templates/pong/sections/tournamentForm.html:21
+msgid " Player 6"
+msgstr ""
+
+#: pong/templates/pong/sections/tournamentForm.html:24
+msgid " Player 7"
+msgstr ""
+
+#: pong/templates/pong/sections/tournamentForm.html:27
+msgid " Player 8"
+msgstr ""
+
+#: pong/templates/pong/sections/tournamentForm.html:31
+msgid "Start Tournament"
+msgstr ""
+
+#: pong/views/views_logout.py:10
+msgid "Logged Out"
+msgstr ""
+
+#: pong/views/views_table.py:22
+msgid "Send Friend Request"
+msgstr ""
+
+#: pong/views/views_table.py:28
+msgid "Could not find any users that match this username! Try again."
+msgstr ""
+
+#: pong/views/views_table.py:30
+msgid "Please enter a friend's username!"
+msgstr ""
+
+#: pong/views/views_table.py:31 pong/views/views_table.py:60
+#: pong/views/views_table.py:83 pong/views/views_table.py:99
+#: pong/views/views_table.py:115
+msgid "Invalid request method"
+msgstr ""
+
+#: pong/views/views_table.py:41 pong/views/views_table.py:57
+msgid "FriendRequest object could not be created!"
+msgstr ""
+
+#: pong/views/views_table.py:46
+msgid "Already a Friend!"
+msgstr ""
+
+#: pong/views/views_table.py:47
+msgid "Friend request exists, but not accepted yet."
+msgstr ""
+
+#: pong/views/views_table.py:58
+msgid "Friend added"
+msgstr ""
+
+#: pong/views/views_table.py:80
+msgid "Error accepting friend request!"
+msgstr ""
+
+#: pong/views/views_table.py:81
+msgid "Friend request accepted"
+msgstr ""
+
+#: pong/views/views_table.py:96
+msgid "Error rejecting friend request!"
+msgstr ""
+
+#: pong/views/views_table.py:97
+msgid "Friend request rejected"
+msgstr ""
+
+#: pong/views/views_table.py:112
+msgid "Unfriend request unsuccessful"
+msgstr ""
+
+#: pong/views/views_table.py:113
+msgid "Unfriend request successful"
+msgstr ""
+
+#: pong/views/views_updateAvatar.py:11
+msgid "File size must be no more than 2 MB."
+msgstr ""
+
+#: pong/views/views_updateAvatar.py:17
+msgid "Invalid file extension. Allowed extensions are jpg, jpeg, png, svg."
+msgstr ""
+
+#: pong/views/views_updateAvatar.py:38
+msgid "Avatar updated successfully"
+msgstr ""
+
+#: pong/views/views_updateAvatar.py:43
+msgid "No file was provided"
+msgstr ""
+
+#: pong/views/views_update_users.py:33
+msgid "User has no friends!"
+msgstr ""
+
+#: pong/views/views_updatename.py:12
+msgid "Username is too long!"
+msgstr ""
+
+#: pong/views/views_updatename.py:14
+msgid "Username is too short!"
+msgstr ""
+
+#: pong/views/views_updatename.py:16
+msgid "Please type a new username."
+msgstr ""
+
+#: pong/views/views_updatename.py:18
+msgid "Username cannot include spaces or special characters"
+msgstr ""
+
+#: pong/views/views_updatename.py:20
+msgid "Username already exists."
+msgstr ""
+
+#: pong/views/views_updatename.py:22
+msgid "Username does not include a number."
+msgstr ""
+
+#: pong/views/views_updatename.py:26
+msgid "Could not change username! Try again."
+msgstr ""
+
+#: pong/views/views_updatename.py:28
+msgid "Username updated successfully"
+msgstr ""

@@ -1,0 +1,32 @@
+{% load i18n %}
+{% load static %}
+
+<div id="avatar-container" class="m-3">
+	<img id="avatar" alt='{% translate "Player Avatar" %}' src="/media/{{ user.image }}" class="custom-avatar">
+	<img id="camera" alt="{% translate "Camera Icon to edit avatar" %}" tabindex='0' src={% static "pong/img/camera.svg" %} class="camera-icon camera-icon-overlay" onclick="editAvatar()" onkeypress="enterEvent(event)">
+	<form class='form-control d-none' id='editAvatar' style='border-style: none;' zIndex='50'>
+		{% csrf_token %}
+		<input id="newAvatar" type="file" aria-label="newAvatar" class="input" placeholder='{% translate "Upload New Avatar Image" %}'>
+		<button id="savebtn" class="btn" onclick="saveAvatar()">{% translate "Save" %}</button>
+		<button id="cancelbtn" type="button" class="btn" onclick="cancelAvatarChange()">{% translate "Cancel" %}</button>
+		<br>
+		<br>
+		<p class="fst-italic fw-lighter" style="color: red;">{% translate 'Image cannot be more than 2MB' %}</p>
+		<div id="avatar-messages">
+		</div>
+	</form>
+	{% if is_user_active %}
+		<img alt="{% translate "Player's Online Status" %}" class="status-circle bg-success" src="data:image/svg+xml;charset=utf8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%3E%3C/svg%3E">
+	{% else %}
+		<img alt="{% translate "Player's Online Status" %}" class="status-circle bg-danger" src="data:image/svg+xml;charset=utf8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%3E%3C/svg%3E">
+	{% endif %}
+</div>
+
+<script>
+    function enterEvent(event) {
+        if (event.key === 'Enter') {
+            event.preventDefault();
+            editAvatar();
+        }
+    }
+</script>

@@ -1,0 +1,26 @@
+{% load i18n %}
+
+{% if messages %}
+{% for message in messages %}
+<span{% if message.tags %} class="{{ message.tags }}"{% endif %}>
+  {{ message }}
+</span>
+{% endfor %}
+{% endif %}
+
+{% block avatarProfile %}
+    {% include "../components/avatarProfile.html" %}
+{% endblock avatarProfile %}
+
+<div id="player-name" style="position: relative;">
+	<p class="user-text">{{ profile_user.display_name }}</p>
+</div>
+
+<p id="matchHistoryHeader" class="mt-5 fw-bold text-tab table-background border-color" style="color: #DEE2E6; margin-left: 40%; margin-right: 40%; padding: 10px ">Match History</p>
+<div class="mx-5 table-padding justify-content-center table-background" id="profile-matchHistory">
+<div class="p-3 table-responsive">
+    {% block matchHistory %}
+        {% include "../components/matchHistory.html" %}
+    {% endblock matchHistory %}
+</div>
+</div>

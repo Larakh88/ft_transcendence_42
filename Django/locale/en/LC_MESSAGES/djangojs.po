@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-31 09:41+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: pong/static/pong/js/game.js:25
+msgid "Please enter a value for Player 2 Alias!"
+msgstr "Please enter a value for Player 2 Alias!"
+
+#: pong/static/pong/js/game.js:29
+msgid "Alias is between 3 and 10 characters!"
+msgstr "Alias is between 3 and 10 characters!"
+
+#: pong/static/pong/js/game.js:33 pong/static/pong/js/multiGame.js:28
+msgid "Alias cannot contain spaces!"
+msgstr "Alias cannot contain spaces!"
+
+#: pong/static/pong/js/game.js:39
+msgid "Alias cannot be the same as the user!"
+msgstr "Alias cannot be the same as the user!"
+
+#: pong/static/pong/js/game.js:191 pong/static/pong/js/multiGame.js:194
+msgid "Game Over!<br>"
+msgstr "Game Over!<br>"
+
+#: pong/static/pong/js/game.js:191 pong/static/pong/js/multiGame.js:194
+msgid " Wins"
+msgstr " Wins"
+
+#: pong/static/pong/js/multiGame.js:20
+msgid "Please enter all aliases"
+msgstr "Please enter all aliases"
+
+#: pong/static/pong/js/multiGame.js:24
+msgid "Alias cannot be more than 10 characters!"
+msgstr "Alias cannot be more than 10 characters!"
+
+#: pong/static/pong/js/multiGame.js:32
+msgid "Aliases cannot be identical!"
+msgstr "Aliases cannot be identical!"
+
+#: pong/static/pong/js/multiGame.js:194
+msgid "Tie"
+msgstr "Tie"
+
+#: pong/static/pong/js/multiGame.js:194
+msgid "It's a Tie"
+msgstr "It's a Tie"
+
+#: pong/static/pong/js/tournament.js:27
+msgid "Start Round "
+msgstr "Start Round "
+
+#: pong/static/pong/js/tournament.js:40
+msgid "New Tournament"
+msgstr "New Tournament"
+
+#: pong/static/pong/js/tournament.js:85
+msgid "Please enter a value for Player "
+msgstr "Please enter a value for Player "
+
+#: pong/static/pong/js/tournament.js:91
+msgid "Please enter 8 unique players!"
+msgstr "Please enter 8 unique players!"

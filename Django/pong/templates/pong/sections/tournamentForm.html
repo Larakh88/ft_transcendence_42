@@ -1,0 +1,32 @@
+{% load i18n %}
+<div class='d-flex justify-content-center pt-4 text-left'>
+<form class='form-control w-25 table-background needs-validation' style="background: #2D3748; min-width: 250px" id='tournament-form' novalidate>
+	<label class="form-label text-start" for='player1'>{% translate "Players" %}</label>
+	<input type="text" maxlength='20' class="form-control" id="player1" name="player1" placeholder="{% translate " Player 1" %}" required>
+	<br>
+
+	<input type="text" maxlength='20' class="form-control" id="player2" name="player2" placeholder="{% translate " Player 2" %}" required>
+	<br>
+
+	<input type="text" maxlength='20' class="form-control" id="player3" name="player3" placeholder="{% translate " Player 3" %}" required>
+	<br>
+
+	<input type="text" maxlength='20' class="form-control" id="player4" name="player4" placeholder="{% translate " Player 4" %}" required>
+	<br>
+
+	<input type="text" maxlength='20' class="form-control" id="player5" name="player5" placeholder="{% translate " Player 5" %}" required>
+	<br>
+
+	<input type="text" maxlength='20' class="form-control" id="player6" name="player6" placeholder="{% translate " Player 6" %}" required>
+	<br>
+
+	<input type="text" maxlength='20' class="form-control" id="player7" name="player7" placeholder="{% translate " Player 7" %}" required>
+	<br>
+
+	<input type="text" maxlength='20' class="form-control" id="player8" name="player8" placeholder="{% translate " Player 8" %}" required>
+	<br>
+	<div id='alert' class="invalid-feedback">
+	</div>
+	<button id='startTourn-btn' class="btn btn-primary" type="button" onclick='submitTournament()'>{% translate "Start Tournament" %}</button>
+</form>
+</div>
