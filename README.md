@@ -5,6 +5,10 @@
 ft_transcendence is the final project within the 42 common core curriculum, representing a comprehensive proficiency in full-stack development. This project entails creating a single-page application (SPA) for a classic Pong game. In addition to the 1v1 game, players can suggest a multi-player tournament. The back-end is developed using Django, a high-level Python web framework known for its efficiency and adherence to the Model-View-Controller (MVC) architecture. Leveraging Django's Object-Relational Mapping (ORM) capabilities, the backend integrates with a PostgreSQL database.
 On the frontend, the project adopts the Bootstrap Toolkit, a widely acclaimed open-source framework that simplifies HyperText Markup Language (HTML), Cascading Style Sheets (CSS) and JavaScript (JS) development.
 
+<div align="center">
+    <img src="https://github-readme-tech-stack.vercel.app/api/cards?title=GitHub+Readme+Tech+Stack&align=center&titleAlign=center&fontSize=20&lineHeight=10&lineCount=2&theme=ayu&width=450&bg=%25230B0E14&titleColor=%231c9eff&line1=react%2Creact%2Cauto%3Btailwindcss%2Ctailwind%2Cauto%3Bprettier%2Cprettier%2Cauto%3B&line2=next.js%2Cnext.js%2Cffffff%3Btypescript%2Ctypescript%2Cauto%3Bstorybook%2Cstorybook%2Cauto%3B" alt="GitHub Readme Tech Stack" />
+</div>
+
 ## Modules
 - **Major module**: Use a Framework as backend.
 - **Minor module**: Use a front-end framework or toolkit.
