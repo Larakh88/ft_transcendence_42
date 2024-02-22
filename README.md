@@ -34,7 +34,7 @@ On the frontend, the project adopts the Bootstrap Toolkit, a widely acclaimed op
 
 ## Collaborators
 
-<img src="https://img.shields.io/badge/Contributors-4-blue" alt="Contributors" width="150">
+<img src="https://img.shields.io/badge/Collaborators-4-blue" alt="Contributors" width="150">
 
 - [Talal Alsaiaari](https://github.com/TalalAlsaiaari)
 - [Alex Ball](https://github.com/alexhmball)
